@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/LSH/Downloads/LAB_05/testcase'
+let g:netrw_dirhist_2='/Users/LSH/.vim'
+let g:netrw_dirhist_3='/Users/LSH/VirtualBox VMs'
+let g:netrw_dirhist_4='/Users/LSH/Coding/Java/practice/head_first_java/chapter14(Stream)/BeatBox'
+let g:netrw_dirhist_5='/Users/LSH/Coding/Java/practice/head_first_java/chapter14(Stream)'
+let g:netrw_dirhist_6='/Users/LSH/Coding/git_test/vim_settings'
