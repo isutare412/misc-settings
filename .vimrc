@@ -13,6 +13,7 @@ set backspace=indent,eol,start " backspace로 삽입한 위치 이상의 제거 
 set autoindent " 자동 들여쓰기 "
 set cindent " C 언어 자동 들여쓰기 "
 set smartindent " 스마트 자동 들여쓰기 "
+set smarttab " 탭 자동 "
 set nowrapscan " 찾기에서 끝에 이르면 계속하여 찾지 않음 "
 set nojoinspaces " J 명령어로 줄을 붙일 때 마침표 뒤에 한칸만 띔 "
 set ruler " 명령어줄에 커서 위치를 보여줌 "
