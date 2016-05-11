@@ -2,7 +2,11 @@ call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/the-lambda-church/coquille' | Plug 'def-lkb/vimbufsync'
 Plug 'jvoorhis/coq.vim'
 Plug 'https://github.com/hynek/vim-python-pep8-indent.git'
+Plug 'scrooloose/syntastic'
+Plug 'davidhalter/jedi-vim'
 call plug#end()
+
+let g:syntastic_python_python_exec = '/usr/local/Cellar/python3/3.5.1/bin/python3'
 
 au FileType coq call coquille#FNMapping()
 
@@ -46,10 +50,12 @@ set nobomb " BOM 제거"
 set fencs=ucs-bom,utf-8,default,cp949 "한글 인코딩 환경 설정"
 
 
+set tags=./tags
+set tags+=/Users/LSH/Coding/SNU_files/Operating_Systems/indiOS/os-team8/linux-3.10-sc7730/tags
 cs add /Users/LSH/Coding/SNU_files/Operating_Systems/indiOS/os-team8/linux-3.10-sc7730/cscope.out
 
 
-map <c-h> <c-w>h
-map <c-j> <c-w>j
-map <c-k> <c-w>k
-map <c-l> <c-w>l
+map <C-h> <c-w>h
+map <C-j> <c-w>j
+map <C-k> <c-w>k
+map <C-l> <c-w>l
