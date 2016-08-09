@@ -5,15 +5,14 @@ export ZSH=/Users/LSH/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="pygmalion"
-#pygmalion
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -106,6 +105,7 @@ alias cdsnu="cd ~/Coding/SNU_files/"
 alias javac="javac -encoding UTF-8"
 alias java="java -Dfile.encoding=UTF-8"
 alias tree="tree -C"
+alias cdws="cd ~/Coding/WorkSpace/AmaGetDon/amagetdon"
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -114,3 +114,4 @@ alias tree="tree -C"
 
 
 # User Space
+
