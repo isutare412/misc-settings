@@ -2,6 +2,8 @@
     "always_show_minimap_viewport": true,
     "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
     "draw_white_space": "all",
+    "translate_tabs_to_spaces": true,
+    "detect_indentation": true,
     "font_size": 11,
     "highlight_modified_tabs": true,
     "ignored_packages":
