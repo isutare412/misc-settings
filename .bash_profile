@@ -19,3 +19,4 @@ alias cdtmp="cd ~/Coding/tmp"
 alias cdsnu="cd ~/Coding/SNU\ files/"
 alias javac="javac -encoding UTF-8"
 alias java="java -Dfile.encoding=UTF-8"
+
