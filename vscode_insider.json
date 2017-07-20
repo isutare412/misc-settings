@@ -1,0 +1,15 @@
+{
+    "workspace": {
+        "file:///c:/work/x2/trunk/Game/scripts/x2ui": {
+            "folders": [
+                "file:///c:/work/x2/trunk/Code/ddcms"
+            ]
+        }
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.editor.enablePreview": false,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.selectionHighlight": false
+}
