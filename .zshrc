@@ -57,13 +57,9 @@ export CLASSPATH=$CLASSPATH:.
 export PERL5LIB=$PERL5LIB:.
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=$PATH:$JAVA_HOME/bin
-export HADOOP_HOME=/Applications/hadoop-2.7.2
-export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
-export PATH=$PATH:/Applications/hadoop-2.7.2/bin
-export PATH=$PATH:/Applications/CoqIDE_8.4pl5.app/Contents/Resources/bin/
+export PATH=$PATH:/Applications/CoqIDE_8.5pl2.app/Contents/Resources/bin/
 export EDITOR=mvim
 export SHELL=/usr/local/bin/zsh
-# export MANPATH="/usr/local/man:$MANPATH"
 
 # Shell only exists after the 10th consecutive Ctrl-d
 IGNOREEOF=10   
@@ -93,19 +89,10 @@ source $ZSH/oh-my-zsh.sh
 #
 alias vi="mvim -vf"
 alias vim="mvim -vf"
-alias cdhtml="cd ~/Coding/HTML"
-alias cdjava="cd ~/Coding/Java"
-alias cdpy="cd ~/Coding/Python"
-alias cdrb="cd ~/Coding/Ruby"
-alias cdpl="cd ~/Coding/Perl"
-alias cdc="cd ~/Coding/C"
-alias cdcpp="cd ~/Coding/C++"
-alias cdtmp="cd ~/Coding/tmp"
-alias cdsnu="cd ~/Coding/SNU_files/"
 alias javac="javac -encoding UTF-8"
 alias java="java -Dfile.encoding=UTF-8"
 alias tree="tree -C"
-alias cdws="cd ~/Coding/WorkSpace/AmaGetDon/amagetdon"
+alias clang++="clang++ -std=c++14"
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -114,4 +101,4 @@ alias cdws="cd ~/Coding/WorkSpace/AmaGetDon/amagetdon"
 
 
 # User Space
-
+export NVIM_TUI_ENABLE_TRUE_COLOR=1
