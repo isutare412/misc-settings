@@ -1,0 +1,38 @@
+// 설정을 이 파일에 넣어서 기본 설정을 덮어씁니다.
+{
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "editor.tabSize": 4,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.lineNumbers": "relative",
+
+    "[python]": {
+        "editor.rulers": [79]
+    },
+
+    "workbench.startupEditor": "none",
+
+    "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
+    "terminal.integrated.fontSize": 14,
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.un~": true,
+        "**/.vscode": true,
+        "**/__pycache__": true
+    },
+
+    "window.zoomLevel": 0,
+
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true
+}
