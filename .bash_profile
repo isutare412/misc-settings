@@ -3,20 +3,16 @@ export CLICOLOR=1   # Tell ls to be colorful
 export LSCOLORS=ExFxCxDxBxegedabagacad  # Show directory color in blue
 export GREP_OPTIONS='--color=auto'
 
-export CLASSPATH=.
-export PERL5LIB=.
+# install commandline git prompt theme
+# brew intall bash-git-prompt
+if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+  __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
+  source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+fi
 
 alias vi="mvim -v"
 alias vim="mvim -v"
-alias cdhtml="cd ~/Coding/HTML"
-alias cdjava="cd ~/Coding/Java"
-alias cdpy="cd ~/Coding/Python"
-alias cdrb="cd ~/Coding/Ruby"
-alias cdpl="cd ~/Coding/Perl"
-alias cdc="cd ~/Coding/C"
-alias cdcpp="cd ~/Coding/C++"
-alias cdtmp="cd ~/Coding/tmp"
-alias cdsnu="cd ~/Coding/SNU\ files/"
+alias clang++="clang++ -std=c++14 -Wall -Wextra"
 alias javac="javac -encoding UTF-8"
 alias java="java -Dfile.encoding=UTF-8"
-
+alias git="LANG=en_US git"
