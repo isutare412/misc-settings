@@ -26,9 +26,12 @@ clean:
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 	@mkdir -pv $(dir $@)
-	$(CXX) -MMD -c -o $@ $< $(CXXFLAGS)
+	$(CXX) $(CXXFLAGS) -MMD -c -o $@ $<
 
+# $(CXX) -MMD option create makefile dependency file with *.d extension
+# while compiling. So we can add header file dependencies automatically
+# for *.o files that *.cpp include in source code by "include $(DEPS)".
 $(shell mkdir -pv $(dir $(DEPS)))
 $(shell touch $(DEPS))
 include $(DEPS)
-$(DEPS): ;
+$(DEPS): ; # escapes $(DEPS) from dependency check
