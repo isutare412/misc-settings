@@ -3,6 +3,7 @@
 " call plug#begin('~/.vim/plugged')
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
+" Plug 'altercation/vim-colors-solarized'
 " call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -19,13 +20,19 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-colors-solarized setings
+" set background=dark
+" colorscheme solarized
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " symbol highlight on carret
-let HlUnderCursor=1
+let HlUnderCursor=0
 autocmd CursorMoved * exe exists("HlUnderCursor")?HlUnderCursor?printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\')):'match none':""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-syntax on
+syntax enable
 filetype on " detect filetype
 set t_Co=256 " color settings
 set term=xterm-256color " 256 color settings
